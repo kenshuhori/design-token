@@ -17,9 +17,23 @@ const myStyleDictionary = StyleDictionary.extend({
       ],
       files: [
         {
-          destination: "build/scss/_variables.scss"
-          ,
+          destination: "build/scss/_variables.scss",
           format: "scss/map-deep",
+        },
+      ],
+    },
+    css: {
+      transforms: [
+        "attribute/cti",
+        "name/cti/kebab", "time/seconds",
+        "content/icon",
+        "dimension/pixelToRem",
+        "color/css",
+      ],
+      files: [
+        {
+          destination: "build/css/variables.css",
+          format: "css/variables",
         },
       ],
     },
