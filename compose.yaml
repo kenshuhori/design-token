@@ -1,6 +1,6 @@
 services:
   workspace:
-    build: .
+    build: ./.devcontainer
     tty: true
     volumes:
       - ./:/usr/src/app
