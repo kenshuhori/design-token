@@ -1,0 +1,35 @@
+
+/**
+ * Do not edit directly
+ * Generated on Sun, 05 Jan 2025 04:04:11 GMT
+ */
+
+$color-purple-0: #e8e1f3 !default;
+$color-purple-1: #b79ed9 !default;
+$color-purple-2: #9568c6 !default;
+$color-purple-3: #6e389f !default;
+$color-purple-4: #351552 !default;
+$dimesion-0: 0 !default;
+$dimesion-1: 0.0625rem !default;
+$dimesion-2: 0.125rem !default;
+$dimesion-3: 0.25rem !default;
+$dimesion-4: 0.5rem !default;
+
+$tokens: (
+  'color': (
+    'purple': (
+      '0': $color-purple-0,
+      '1': $color-purple-1,
+      '2': $color-purple-2,
+      '3': $color-purple-3,
+      '4': $color-purple-4
+    )
+  ),
+  'dimesion': (
+    '0': $dimesion-0,
+    '1': $dimesion-1,
+    '2': $dimesion-2,
+    '3': $dimesion-3,
+    '4': $dimesion-4
+  )
+);
